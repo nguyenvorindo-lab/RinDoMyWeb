@@ -1,5 +1,4 @@
 
-
 * {
   box-sizing: border-box;
 }
@@ -15,23 +14,54 @@ h1, h2, h3, p {
   margin-top: 0;
 }
 
-
 a {
-  color: #ff6600;         
-  text-decoration: none;
-  font-weight: bold;
+  color: #ff6600;       
 }
 
 
-a:hover {
-  color: #cc5200;         
+
+.site-header {
+  padding: 18px 8%;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.brand {
+  font-weight: 800;
+  font-size: 24px;
+  color: #ff6600;            
+}
+
+.main-nav a {
+  margin-right: 16px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #4b5563;           
+}
+
+
+.main-nav a:hover {
+  color: #ff6600;
   text-decoration: underline;
 }
 
+#main-title {
+  color: #ff6600;            
+  font-size: 32px;
+}
 
-.brand {
-  color: #ff6600;
-  font-weight: bold;
+.about-section {
+  background-color: #ffffff;
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 84%;
+  border-radius: 8px;
+}
+
+.topic-list {
+  padding-left: 20px;
+  line-height: 1.8;
+  color: #374151;
 }
 
 .primary-button {
@@ -39,10 +69,11 @@ a:hover {
   color: #ffffff;
   padding: 10px 20px;
   display: inline-block;
+  text-decoration: none;
   border-radius: 5px;
+  font-weight: bold;
 }
 
 .primary-button:hover {
   background-color: #cc5200;
-  color: #ffffff;
 }
