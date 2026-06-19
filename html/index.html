@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MyWeb - 5. Box model và card</title>
+  <title>MyWeb - 9. Responsive hoàn chỉnh</title>
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -12,8 +12,8 @@
   <nav class="main-nav" aria-label="Điều hướng chính">
     <a href="#hero">Trang chủ</a>
     <a href="#about">Giới thiệu</a>
-    <a href="#style-guide">Bảng phong cách</a>
-    <a href="#features">Nổi bật</a>
+    <a href="#gallery">Thư viện</a>
+    <a href="#contact">Liên hệ</a>
   </nav>
 </header>
 
@@ -53,20 +53,61 @@
   <section class="section feature-section" id="features">
     <h2>Nội dung nổi bật</h2>
     <div class="card-row">
-      <article class="feature-card">
-        <h3>Kỹ Thuật BEEF</h3>
-        <p>Bí quyết của những cú ném rổ chính xác nằm ở sự thăng bằng, hướng cùi chỏ, sự tập trung vào vành rổ và động tác vẩy cổ tay khi bóng rời tay.</p>
-      </article>
-      <article class="feature-card">
-        <h3>Thể Lực Zone 2</h3>
-        <p>Xây dựng nền tảng bền bỉ trên sân đấu bằng các bài tập chạy bộ hoặc nhồi bóng liên tục trong vùng nhịp tim ổn định để duy trì thể trạng tốt nhất.</p>
-      </article>
-      <article class="feature-card">
-        <h3>Tư Duy Đồng Đội</h3>
-        <p>Một ngôi sao có thể thắng một trận đấu, nhưng tinh thần đồng đội và sự hiểu ý nhau qua từng đường chuyền mới là thứ tạo nên nhà vô địch.</p>
-      </article>
+      <article class="feature-card"><h3>Kỹ Thuật BEEF</h3><p>Bí quyết của những cú ném rổ chính xác nằm ở sự thăng bằng, hướng cùi chỏ và động tác vẩy cổ tay.</p></article>
+      <article class="feature-card"><h3>Thể Lực Zone 2</h3><p>Xây dựng nền tảng bền bỉ trên sân đấu bằng các bài tập chạy bộ duy trì nhịp tim ổn định.</p></article>
+      <article class="feature-card"><h3>Tư Duy Đồng Đội</h3><p>Tinh thần đồng đội và sự hiểu ý nhau qua từng đường chuyền mới là thứ tạo nên nhà vô địch.</p></article>
     </div>
   </section>
+
+  <section class="section gallery-section" id="gallery">
+    <h2>Thư viện ảnh</h2>
+    <div class="image-strip">
+      <figure><img src="../img/hinhanh.png" alt="Ảnh chính của chủ đề"><figcaption>Sân đấu đam mê</figcaption></figure>
+      <figure><img src="../img/hinhanh.png" alt="Chi tiết 1 của chủ đề"><figcaption>Kỹ thuật ném rổ</figcaption></figure>
+      <figure><img src="../img/hinhanh.png" alt="Chi tiết 2 của chủ đề"><figcaption>Giày thi đấu cá tính</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="section layout-section" id="layout">
+    <h2>Bố cục hai vùng bằng Flexbox</h2>
+    <div class="content-layout">
+      <article class="main-content">
+        <h3>Chiến thuật thi đấu phong trào</h3>
+        <p>Trong bóng rổ nửa sân (3x3) hoặc toàn sân (5x5), việc chạy chỗ thông minh và tạo khoảng trống là chìa khóa ghi điểm dễ dàng nhất mà không tốn quá nhiều sức.</p>
+      </article>
+      <aside class="side-panel">
+        <h3>Dữ kiện ngắn</h3>
+        <p>• Thời gian tập: 17:00 hàng ngày<br>• Chế độ ăn: Giàu protein<br>• Mục tiêu: Tối ưu thể lực bứt tốc</p>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section portfolio-section" id="portfolio">
+    <h2>Lưới nội dung</h2>
+    <div class="portfolio-grid">
+      <article>Dẫn bóng Crossover</article>
+      <article>Ném 3 Điểm chuẩn xác</article>
+      <article>Phòng thủ Man-to-Man</article>
+      <article>Chuyền bóng No-look</article>
+      <article>Lên rổ Layup cơ bản</article>
+      <article>Bắt bóng Rebound tốt</article>
+    </div>
+  </section>
+
+  <section class="section contact-section" id="contact">
+    <h2>Liên hệ</h2>
+    <form class="contact-form" action="#" method="post">
+      <label for="fullName">Họ tên</label>
+      <input id="fullName" name="fullName" type="text" placeholder="Nhập họ tên của bạn">
+      <label for="message">Thông điệp</label>
+      <textarea id="message" name="message" rows="4" placeholder="Lời nhắn hoặc lời mời giao lưu bóng rổ"></textarea>
+      <button type="submit">Gửi thông tin</button>
+    </form>
+  </section>
 </main>
+
+<footer class="site-footer">
+  <p>© 2026 Basketball Life. Website cá nhân hoàn chỉnh bởi Nguyễn Võ Rin Đô.</p>
+</footer>
 </body>
 </html>
