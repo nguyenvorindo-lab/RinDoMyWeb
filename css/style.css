@@ -1,1 +1,48 @@
 
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #222222;            
+  background-color: #f3f4f6; 
+}
+
+h1, h2, h3, p {
+  margin-top: 0;
+}
+
+
+a {
+  color: #ff6600;         
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+a:hover {
+  color: #cc5200;         
+  text-decoration: underline;
+}
+
+
+.brand {
+  color: #ff6600;
+  font-weight: bold;
+}
+
+.primary-button {
+  background-color: #ff6600;
+  color: #ffffff;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.primary-button:hover {
+  background-color: #cc5200;
+  color: #ffffff;
+}
