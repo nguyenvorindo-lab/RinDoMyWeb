@@ -1,0 +1,39 @@
+/* Kế thừa các phần trước */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; color: #222222; background-color: #f3f4f6; }
+:root { --primary: #111827; --accent: #ff6600; --soft: #e5e7eb; --dark: #111827; }
+.site-header { padding: 18px 8%; background-color: #ffffff; border-bottom: 1px solid #e5e7eb; }
+.hero { padding: 80px 8%; color: white; background: linear-gradient(135deg, var(--primary), #374151); }
+.primary-button { display: inline-block; padding: 12px 18px; background-color: var(--accent); color: #fff; border-radius: 999px; text-decoration: none; }
+
+/* Bổ sung Chặng 4 */
+.section {
+  padding: 56px 8%;
+}
+
+h1 {
+  font-size: clamp(36px, 6vw, 72px);
+  line-height: 1.05;
+}
+
+h2 {
+  font-size: 32px;
+  color: var(--dark);
+  text-align: center;
+}
+
+p, li {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.lead {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+blockquote {
+  font-size: 24px;
+  font-style: italic;
+  text-align: center;
+}
