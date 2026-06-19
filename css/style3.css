@@ -1,0 +1,49 @@
+/* Kế thừa cấu trúc cơ bản */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; color: #222222; background-color: #f3f4f6; }
+h1, h2, h3, p { margin-top: 0; }
+.site-header { padding: 18px 8%; background-color: #ffffff; border-bottom: 1px solid #e5e7eb; }
+.brand { font-weight: 800; font-size: 24px; }
+.main-nav a { margin-right: 16px; text-decoration: none; font-weight: 700; }
+
+/* Bổ sung Chặng 3 */
+:root {
+  --primary: #111827;
+  --accent: #ff6600;
+  --soft: #e5e7eb;
+  --dark: #111827;
+}
+
+.hero {
+  padding: 80px 8%;
+  color: white;
+  background: linear-gradient(135deg, var(--primary), #374151);
+}
+
+#main-title {
+  color: #ffffff;
+}
+
+.primary-button {
+  display: inline-block;
+  padding: 12px 18px;
+  background-color: var(--accent);
+  color: #fff;
+  border-radius: 999px;
+  text-decoration: none;
+}
+
+.swatches {
+  display: flex;
+  gap: 12px;
+}
+
+.swatch {
+  padding: 18px;
+  border-radius: 16px;
+  color: white;
+}
+
+.swatch-primary { background-color: var(--primary); }
+.swatch-accent { background-color: var(--accent); }
+.swatch-soft { color: var(--dark); background-color: var(--soft); }
